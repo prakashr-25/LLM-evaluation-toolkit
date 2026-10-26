@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Charged twice for my invoice",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "text": "Send me my payment receipt",
+    "category": "Billing",
+    "priority": "Low"
+  },
+  {
+    "text": "Card charged but payment failed",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "text": "Change my billing address",
+    "category": "Billing",
+    "priority": "Low"
+  },
+  {
+    "text": "Discount missing from invoice",
+    "category": "Billing",
+    "priority": "Medium"
+  },
+  {
+    "text": "Production API returns 500 errors",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "How do I enable dark mode?",
+    "category": "Technical",
+    "priority": "Low"
+  },
+  {
+    "text": "Dashboard freezes repeatedly",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "text": "Attachment upload is failing",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "text": "Service is down for all users",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "Someone accessed my account",
+    "category": "Account",
+    "priority": "High"
+  },
+  {
+    "text": "Change my account email",
+    "category": "Account",
+    "priority": "Low"
+  },
+  {
+    "text": "Two factor login code not arriving",
+    "category": "Account",
+    "priority": "High"
+  },
+  {
+    "text": "I want to close my account",
+    "category": "Account",
+    "priority": "Medium"
+  },
+  {
+    "text": "Update my profile name",
+    "category": "Account",
+    "priority": "Low"
+  }
+]

@@ -1,0 +1,60 @@
+Version,Ticket,Category,Priority,Predicted Category,Predicted Priority,Response,Correct
+v1,Charged twice for my invoice,Billing,High,Billing,High,"**Category:** Billing  
+**Priority:** High",True
+v1,Send me my payment receipt,Billing,Low,Billing,Low,"**Category:** Billing  
+**Priority:** Low",True
+v1,Card charged but payment failed,Billing,High,Billing,High,"**Category:** Billing  
+**Priority:** High",True
+v1,Change my billing address,Billing,Low,Billing,Low,"**Category:** Billing  
+**Priority:** Low",True
+v1,Discount missing from invoice,Billing,Medium,Billing,Medium,"**Category:** Billing  
+**Priority:** Medium",True
+v1,Production API returns 500 errors,Technical,High,Technical,High,"**Category:** Technical  
+**Priority:** High",True
+v1,How do I enable dark mode?,Technical,Low,Technical,Medium,"**Category:** Technical  
+**Priority:** Medium",False
+v1,Dashboard freezes repeatedly,Technical,Medium,Technical,High,"**Category:** Technical  
+**Priority:** High",False
+v1,Attachment upload is failing,Technical,Medium,Technical,High,"**Category:** Technical  
+**Priority:** High",False
+v1,Service is down for all users,Technical,High,Technical,High,"**Category:** Technical  
+**Priority:** High",True
+v1,Someone accessed my account,Account,High,Account,High,"**Category:** Account  
+**Priority:** High",True
+v1,Change my account email,Account,Low,Account,Medium,"**Category:** Account  
+**Priority:** Medium",False
+v1,Two factor login code not arriving,Account,High,Technical,High,"**Category:** Technical  
+**Priority:** High",False
+v1,I want to close my account,Account,Medium,Account,Medium,"Account, Medium",True
+v1,Update my profile name,Account,Low,Account,Low,"**Category:** Account  
+**Priority:** Low",True
+v2,Charged twice for my invoice,Billing,High,Billing,Medium,"{""category"":""Billing"",""priority"":""Medium""}",False
+v2,Send me my payment receipt,Billing,Low,Billing,Low,"{""category"":""Billing"",""priority"":""Low""}",True
+v2,Card charged but payment failed,Billing,High,Billing,High,"{""category"":""Billing"",""priority"":""High""}",True
+v2,Change my billing address,Billing,Low,Billing,Low,"{""category"":""Billing"",""priority"":""Low""}",True
+v2,Discount missing from invoice,Billing,Medium,Billing,Medium,"{""category"":""Billing"",""priority"":""Medium""}",True
+v2,Production API returns 500 errors,Technical,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",True
+v2,How do I enable dark mode?,Technical,Low,Technical,Low,"{""category"":""Technical"",""priority"":""Low""}",True
+v2,Dashboard freezes repeatedly,Technical,Medium,Technical,High,"{""category"":""Technical"",""priority"":""High""}",False
+v2,Attachment upload is failing,Technical,Medium,Technical,High,"{""category"":""Technical"",""priority"":""High""}",False
+v2,Service is down for all users,Technical,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",True
+v2,Someone accessed my account,Account,High,Account,High,"{""category"":""Account"",""priority"":""High""}",True
+v2,Change my account email,Account,Low,Account,Medium,"{""category"":""Account"",""priority"":""Medium""}",False
+v2,Two factor login code not arriving,Account,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",False
+v2,I want to close my account,Account,Medium,Account,High,"{""category"":""Account"",""priority"":""High""}",False
+v2,Update my profile name,Account,Low,Account,Low,"{""category"":""Account"",""priority"":""Low""}",True
+v3,Charged twice for my invoice,Billing,High,Billing,Low,"{""category"":""Billing"",""priority"":""Low""}",False
+v3,Send me my payment receipt,Billing,Low,Billing,Low,"{""category"":""Billing"",""priority"":""Low""}",True
+v3,Card charged but payment failed,Billing,High,Billing,High,"{""category"":""Billing"",""priority"":""High""}",True
+v3,Change my billing address,Billing,Low,Billing,Low,"{""category"":""Billing"",""priority"":""Low""}",True
+v3,Discount missing from invoice,Billing,Medium,Billing,Medium,"{""category"":""Billing"",""priority"":""Medium""}",True
+v3,Production API returns 500 errors,Technical,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",True
+v3,How do I enable dark mode?,Technical,Low,Technical,Low,"{""category"":""Technical"",""priority"":""Low""}",True
+v3,Dashboard freezes repeatedly,Technical,Medium,Technical,High,"{""category"":""Technical"",""priority"":""High""}",False
+v3,Attachment upload is failing,Technical,Medium,Technical,Medium,"{""category"":""Technical"",""priority"":""Medium""}",True
+v3,Service is down for all users,Technical,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",True
+v3,Someone accessed my account,Account,High,Account,High,"{""category"":""Account"",""priority"":""High""}",True
+v3,Change my account email,Account,Low,Account,Low,"{""category"":""Account"",""priority"":""Low""}",True
+v3,Two factor login code not arriving,Account,High,Technical,High,"{""category"":""Technical"",""priority"":""High""}",False
+v3,I want to close my account,Account,Medium,Account,Low,"{""category"":""Account"",""priority"":""Low""}",False
+v3,Update my profile name,Account,Low,Account,Low,"{""category"":""Account"",""priority"":""Low""}",True

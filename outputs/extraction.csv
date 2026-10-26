@@ -1,0 +1,25 @@
+JSON Mode,Resume,Expected,Response,Valid,Exact Match
+False,Asha knows Python and SQL with 2 years of experience.,"{""name"": ""Asha"", ""skills"": [""Python"", ""SQL""], ""years_experience"": 2}","**Name:** Asha  
+**Skills:** Python, SQL  
+**Experience:** 2 years  ",False,False
+False,Ravi has 4 years of experience using Excel and Power BI.,"{""name"": ""Ravi"", ""skills"": [""Excel"", ""Power BI""], ""years_experience"": 4}","**Name:** Ravi  
+**Skills:** Excel, Power BI  
+**Experience:** 4 years (using Excel and Power BI)",False,False
+False,Meena worked with Java and Spring Boot for 3 years.,"{""name"": ""Meena"", ""skills"": [""Java"", ""Spring Boot""], ""years_experience"": 3}","**Extracted Information**
+
+| Field      | Value                     |
+|------------|---------------------------|
+| Name       | Meena                     |
+| Skills     | Java, Spring Boot         |
+| Experience | 3 years                   |",False,False
+False,Fatima has 5 years of experience with Zendesk and CRM.,"{""name"": ""Fatima"", ""skills"": [""Zendesk"", ""CRM""], ""years_experience"": 5}","**Name:** Fatima  
+**Skills:** Zendesk, CRM  
+**Experience:** 5 years with Zendesk and CRM.",False,False
+False,"Arjun knows HTML, CSS and JavaScript with 1 year of experience.","{""name"": ""Arjun"", ""skills"": [""HTML"", ""CSS"", ""JavaScript""], ""years_experience"": 1}","**Name:** Arjun  
+**Skills:** HTML, CSS, JavaScript  
+**Experience:** 1 year  ",False,False
+True,Asha knows Python and SQL with 2 years of experience.,"{""name"": ""Asha"", ""skills"": [""Python"", ""SQL""], ""years_experience"": 2}","{""name"":""Asha"",""skills"":[""Python"",""SQL""],""years_experience"":2}",True,True
+True,Ravi has 4 years of experience using Excel and Power BI.,"{""name"": ""Ravi"", ""skills"": [""Excel"", ""Power BI""], ""years_experience"": 4}","{""name"":""Ravi"",""skills"":[""Excel"",""Power BI""],""years_experience"":4}",True,True
+True,Meena worked with Java and Spring Boot for 3 years.,"{""name"": ""Meena"", ""skills"": [""Java"", ""Spring Boot""], ""years_experience"": 3}","{""name"":""Meena"",""skills"":[""Java"",""Spring Boot""],""years_experience"":3}",True,True
+True,Fatima has 5 years of experience with Zendesk and CRM.,"{""name"": ""Fatima"", ""skills"": [""Zendesk"", ""CRM""], ""years_experience"": 5}","{""name"":""Fatima"",""skills"":[""Zendesk"",""CRM""],""years_experience"":5}",True,True
+True,"Arjun knows HTML, CSS and JavaScript with 1 year of experience.","{""name"": ""Arjun"", ""skills"": [""HTML"", ""CSS"", ""JavaScript""], ""years_experience"": 1}","{""name"":""Arjun"",""skills"":[""HTML"",""CSS"",""JavaScript""],""years_experience"":1}",True,True

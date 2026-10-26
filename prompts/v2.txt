@@ -1,0 +1,4 @@
+Role: Customer support classifier.
+Task: Identify category and priority.
+Constraints: Use only Billing, Technical, Account and Low, Medium, High.
+Output format: JSON object with category and priority only.

@@ -1,0 +1,6 @@
+Problem,Expected,Plain,Step by Step,Plain Correct,Step Correct
+Three notebooks cost 45 each and two pens cost 15 each. Total?,165,165,165,True,True
+120 apples minus 35 sold plus 18 received minus 7 spoiled?,96,96,96,True,True
+Travel 60 km/h for 2 hours and 40 km/h for 3 hours. Total distance?,240,240,240,True,True
+"Price 500, discount 20%, then add 18% tax. Final price?",472,472,472,True,True
+5 workers make 40 boxes in 2 days. How many can 8 make in 3 days?,96,96,96,True,True

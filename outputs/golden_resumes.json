@@ -1,0 +1,58 @@
+[
+  {
+    "text": "Asha knows Python and SQL with 2 years of experience.",
+    "expected": {
+      "name": "Asha",
+      "skills": [
+        "Python",
+        "SQL"
+      ],
+      "years_experience": 2
+    }
+  },
+  {
+    "text": "Ravi has 4 years of experience using Excel and Power BI.",
+    "expected": {
+      "name": "Ravi",
+      "skills": [
+        "Excel",
+        "Power BI"
+      ],
+      "years_experience": 4
+    }
+  },
+  {
+    "text": "Meena worked with Java and Spring Boot for 3 years.",
+    "expected": {
+      "name": "Meena",
+      "skills": [
+        "Java",
+        "Spring Boot"
+      ],
+      "years_experience": 3
+    }
+  },
+  {
+    "text": "Fatima has 5 years of experience with Zendesk and CRM.",
+    "expected": {
+      "name": "Fatima",
+      "skills": [
+        "Zendesk",
+        "CRM"
+      ],
+      "years_experience": 5
+    }
+  },
+  {
+    "text": "Arjun knows HTML, CSS and JavaScript with 1 year of experience.",
+    "expected": {
+      "name": "Arjun",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "years_experience": 1
+    }
+  }
+]

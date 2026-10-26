@@ -1,0 +1,45 @@
+Number,Bad Prompt,Improved Prompt,Before,After
+1,Handle this,"Classify into Billing, Technical or Account with Low, Medium or High priority. Return JSON with category and priority.","I’m sorry you’re seeing a duplicate charge. Let’s get that sorted out quickly.
+
+### 1. Verify the Charge
+- **Open your banking app or online portal** and look at the recent transactions.  
+- Note the **date, time, merchant name, and amount** for both entries.  
+- If the merchant is the same and the amounts match, it’s almost certainly a duplicate.
+
+### 2. Check for Pending vs. Completed
+- Sometimes a transaction appears twice because one is still *pending* and the other has *settled*.  
+- If one is pending, it may drop off automatically in a few days.
+
+### 3. Contact the Merchant (Optional)
+- If you’re sure it’s a duplicate, you can call the merchant’s customer service.  
+- They can often reverse the","```json
+{
+  ""category"": ""Billing"",
+  ""priority"": ""High""
+}
+```"
+2,Tell me about this,"Extract name, skills and years_experience as JSON. Do not invent details.","**Leena – Python Developer (2 years of experience)**  
+
+- **Core skills**:  
+  - Proficient in writing clean, maintainable Python code.  
+  - Comfortable with standard libraries (collections, itertools, datetime, etc.) and popular third‑party packages (NumPy, pandas, requests, Flask/Django, SQLAlchemy).  
+  - Experienced in writing unit tests (pytest, unittest) and using version control (Git).  
+
+- **Typical projects**:  
+  - Building RESTful APIs with Flask or FastAPI.  
+","```json
+{
+  ""name"": ""Leena"",
+  ""skills"": [""Python""],
+  ""years_experience"": 2
+}
+```"
+3,Write something,Write two friendly sentences acknowledging a missing invoice. Do not promise a refund.,"Sure! Below is a concise, polite email template you can use to request a missing invoice from a vendor or service provider. Feel free to tweak the details to match your situation.
+
+---
+
+**Subject:** Request for Missing Invoice – [Your Company Name] – [Invoice # or Order #]
+
+Hi [Vendor’s Name/Accounts Team],
+
+I hope you’re doing well. I’m writing to let you know that we haven’t received the invoice for the recent [product/service] we received on [date of delivery or service]. We need this",I’m sorry to hear that your invoice is missing. Let me look into it and get it to you as soon as possible.
